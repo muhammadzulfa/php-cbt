@@ -1,0 +1,121 @@
+body,
+html{
+    background-color: #f8f9fc;
+}
+.pull-right{
+    float: right
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+}
+.rotate-0deg{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+    float: left;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.rotate-0deg:hover{
+    border: 1px solid black;
+    text-decoration: none;
+}
+.rotate-360deg{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+    float: left;
+    transition: 1s;
+    cursor: pointer;
+    border: 0
+}
+.rotate-360deg:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+    text-decoration: none;
+    border: 0
+}
+.clear{
+    clear: both;
+}
+.ahref{
+    color: #fff;
+    cursor: pointer;
+}
+.ahref:hover{
+    color: #fff;
+    text-decoration: none
+}
+input[type="radio"] + label{
+    cursor: pointer;
+}
+.pil{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 5px;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 1s;
+    cursor: pointer;
+}
+.pil-active{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 5px;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 1s;
+    cursor: pointer;
+}
+.shadow-hover{
+    transition: 0.5s;
+}
+.shadow-hover:hover{
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important
+}
+.maker{
+    background-color: yellow;
+}
+.no-soal-warning{
+    color:#212529;
+    background-color:#ffc107;
+    border-color:#ffc107;
+/*    border: 1px solid black*/
+}
+.no-soal-warning:hover{
+    color:#212529;
+    background-color:#e0a800;
+    border-color:#d39e00;
+/*    border: 1px solid black*/
+}
+.no-soal-success{
+    color:#fff;
+    background-color:#28a745;
+    border-color:#28a745
+}
+.no-soal-success:hover{
+    color:#fff;
+    background-color:#218838;
+    border-color:#1e7e34
+}
+.no-soal-danger{
+    color:#fff;
+    background-color:#dc3545;
+    border-color:#dc3545
+}
+.no-soal-danger:hover{
+    color:#fff;
+    background-color:#c82333;
+    border-color:#bd2130
+}
